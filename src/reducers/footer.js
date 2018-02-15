@@ -30,20 +30,20 @@ const initialState = {
             title: 'store information',
             points: [
                 {
-                    img: '',
+                    img: '',
                     text: 'Company inc., 8901 Marmora Road, Glasgow, D04 89GR'
                 },
                 {
-                    img: '',
+                    img: '',
                     text: 'Call us now toll Free: (800) 2345-6789'
                 },
                 {
-                    img: '',
+                    img: '',
                     text: 'Customer support: support@example.com',
                     text_2: 'Press: pressroom@example.com'
                 },
                 {
-                    img: '',
+                    img: '',
                     text: 'Skype: sample-username'
                 }
             ]
