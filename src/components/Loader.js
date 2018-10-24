@@ -1,7 +1,6 @@
 import React from 'react';
-import {connect} from 'react-redux';
 
-const Header =({ eventList }) => (
+const Header =() => (
     <div id="preloader">
         <div className="spinWrap">
             <div className="loader"></div>
@@ -9,9 +8,4 @@ const Header =({ eventList }) => (
     </div>
 );
 
-export default connect(
-    state => ({
-        eventList: state
-    }),
-    dispatch => ({})
-)(Header);
+export default Header;
