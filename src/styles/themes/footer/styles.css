@@ -1,0 +1,94 @@
+#footer {
+  max-width: 1200px;
+  margin: 72px auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#footer .footer-block {
+  box-sizing: border-box;
+  width: 370px;
+  border: 1px solid #e5e5e5;
+  padding: 27px 23px 44px;
+  margin: 0 15px;
+}
+#footer .footer-block .footer-block_title {
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 54px;
+  text-transform: uppercase;
+}
+#footer .footer-block .footer-block_descriptions {
+  color: #a5a4a4;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: -0.2px;
+  margin-left: 2px;
+  margin-bottom: 6px;
+}
+#footer .footer-block .footer-block_point {
+  display: flex;
+  align-items: center;
+  margin-left: 3px;
+}
+#footer .footer-block .footer-block_point .footer-block_point__text:before {
+  font-family: 'Awesome';
+  color: #ed1111;
+  font-size: 12px;
+  line-height: 25px;
+  display: inline-block;
+}
+#footer .footer-block .footer-block_point .dot:before {
+  content: "\f0da";
+}
+#footer .footer-block .footer-block_point .map_point:before {
+  content: "\f041";
+  font-size: 31px;
+  line-height: 26px;
+}
+#footer .footer-block .footer-block_point .phone:before {
+  content: "\f095";
+  font-size: 31px;
+  line-height: 26px;
+}
+#footer .footer-block .footer-block_point .mail:before {
+  content: "\f003";
+  font-size: 29px;
+  line-height: 26px;
+}
+#footer .footer-block .footer-block_point .mail p {
+  width: 70%;
+}
+#footer .footer-block .footer-block_point .skype:before {
+  content: "\f17e";
+  font-size: 31px;
+  line-height: 26px;
+}
+#footer .footer-block .footer-block_point p {
+  vertical-align: top;
+  color: #a5a4a4;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: -0.2px;
+  display: inline-block;
+  margin-left: 10px;
+}
+#footer .footer-block:nth-child(3) .footer-block_point {
+  padding-bottom: 15px;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+#footer .footer-block:nth-child(3) .footer-block_point__text:before {
+  width: 27px;
+  text-align: center;
+}
+#footer .footer-block:nth-child(3) .footer-block_point__text p {
+  line-height: 20px;
+}

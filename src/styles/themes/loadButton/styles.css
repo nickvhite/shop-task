@@ -1,0 +1,21 @@
+.load_button {
+  margin: 40px auto 0;
+}
+.load_button button {
+  color: #ed1111;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  padding: 12px 26px;
+  cursor: pointer;
+}
+.load_button button:hover {
+  background-color: #ed8e8e;
+}

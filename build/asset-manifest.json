@@ -1,12 +1,11 @@
 {
-  "main.css": "static/css/main.0371d802.css",
-  "main.css.map": "static/css/main.0371d802.css.map",
-  "main.js": "static/js/main.6b4f558d.js",
-  "main.js.map": "static/js/main.6b4f558d.js.map",
-  "static/media/FontAwesome.eot": "static/media/FontAwesome.98ab4a08.eot",
-  "static/media/FontAwesome.svg": "static/media/FontAwesome.717638d2.svg",
-  "static/media/FontAwesome.ttf": "static/media/FontAwesome.99793ede.ttf",
-  "static/media/Ubuntu.eot": "static/media/Ubuntu.2ae08b58.eot",
-  "static/media/Ubuntu.svg": "static/media/Ubuntu.381b8959.svg",
-  "static/media/Ubuntu.ttf": "static/media/Ubuntu.1c5965c2.ttf"
+  "main.css": "static/css/main.c7a86213.css",
+  "main.css.map": "static/css/main.c7a86213.css.map",
+  "main.js": "static/js/main.7e312d35.js",
+  "main.js.map": "static/js/main.7e312d35.js.map",
+  "static/media/fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
+  "static/media/fontawesome-webfont.svg": "static/media/fontawesome-webfont.948b4361.svg",
+  "static/media/fontawesome-webfont.ttf": "static/media/fontawesome-webfont.b06871f2.ttf",
+  "static/media/fontawesome-webfont.woff": "static/media/fontawesome-webfont.fee66e71.woff",
+  "static/media/fontawesome-webfont.woff2": "static/media/fontawesome-webfont.af7ae505.woff2"
 }

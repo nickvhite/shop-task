@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500|Ubuntu:300,400,500');
+@import './fonts/fonts.css';
+
+@import './themes/footer/styles.css';
+@import './themes/loader/styles.css';
+@import './themes/entities/styles.css';
+@import './themes/loadButton/styles.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: "Awesome";
+}

@@ -1,18 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
+import thunc from 'redux-thunk';
 
-import './index.css';
-import App from './App';
-import reducer from './reducers';
+import './styles/index.css';
+import App from './components/App';
+import reducer from './store';
 
-const store = createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__&&
-    window.__REDUX_DEVTOOLS_EXTENSION__());
+const store = createStore(reducer, composeWithDevTools(applyMiddleware(thunc)));
 
-ReactDOM.render(
-    <Provider store = {store}>
-        <App />
-    </Provider>,
-    document.getElementById('container')
-);
+window.onload = () => {
+    document.fonts.onloadingdone = () => {
+        ReactDOM.render(
+            <Provider store = {store}>
+                <App />
+            </Provider>,
+            document.getElementById('root')
+        );
+    }
+}

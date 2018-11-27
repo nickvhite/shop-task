@@ -1,0 +1,144 @@
+#entities {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 1200px;
+  min-height: 554px;
+  margin: 0 auto;
+}
+#entities .entities-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#entities .entities-container .entitie {
+  height: 405px;
+  width: 250px;
+  margin: 50px 15px 0;
+  height: 403px;
+  width: 248px;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  position: relative;
+  animation: fadeIn 0.5s;
+}
+#entities .entities-container .entitie .entitie_image {
+  width: 248px;
+  height: 248px;
+  margin-top: -30px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+#entities .entities-container .entitie .entitie_image img {
+  height: 100%;
+}
+#entities .entities-container .entitie .entitie_image p {
+  position: absolute;
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: -0.26px;
+  width: 69px;
+  height: 39px;
+  line-height: 41px;
+  text-align: center;
+  margin-top: 115px;
+}
+#entities .entities-container .entitie .entitie_image .entitie_discount {
+  background-color: #ed1111;
+  left: 0;
+}
+#entities .entities-container .entitie .entitie_image .entitie_new {
+  background-color: #000000;
+  right: 0;
+}
+#entities .entities-container .entitie .entitie_text {
+  margin-top: 18px;
+  height: 105px;
+  position: relative;
+}
+#entities .entities-container .entitie .entitie_text h2 {
+  color: #333333;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
+#entities .entities-container .entitie .entitie_text p {
+  color: #a5a4a4;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 15px;
+  margin-top: 12px;
+}
+#entities .entities-container .entitie .entitie_text .price {
+  position: absolute;
+  bottom: 0;
+}
+#entities .entities-container .entitie .entitie_text .price span:nth-child(1) {
+  color: #333333;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29px;
+  text-transform: uppercase;
+  letter-spacing: -0.6px;
+}
+#entities .entities-container .entitie .entitie_text .price span:nth-child(2) {
+  color: #ed1111;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-decoration: line-through;
+  margin-left: 22px;
+}
+#entities .entities-container .entitie .entitie_buttons_container {
+  position: absolute;
+  width: 250px;
+  height: 38px;
+  bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#entities .entities-container .entitie .entitie_buttons_container button {
+  width: 120px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 38px;
+  text-transform: uppercase;
+  text-align: center;
+  box-sizing: border-box;
+  letter-spacing: 0.3px;
+}
+#entities .entities-container .entitie .entitie_buttons_container .entitie_add {
+  color: #ed1111;
+  background: none;
+  border: 1px solid #e5e5e5;
+}
+#entities .entities-container .entitie .entitie_buttons_container .entitie_view {
+  color: #999e9f;
+  border: 1px solid #e5e5e5;
+  background-color: #d9d9d9;
+}
+#entities .entities-container .entitie:hover {
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
+}
+#entities .entities-container .entitie:hover .entitie_add {
+  background-color: #ed8e8e;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
