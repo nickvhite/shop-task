@@ -29,8 +29,8 @@ class Entities extends Component {
         const response = await fetch(url);
         const json = await response.json();
         await this.incrementPage();
-        await this.loader.init(json.entities);
-        return json;
+        const filtredJson = await this.loader.init(json);
+        return filtredJson;
     }
 
     firstLoad = async() => {
