@@ -121,6 +121,7 @@
   text-align: center;
   box-sizing: border-box;
   letter-spacing: 0.3px;
+  outline: none;
 }
 #entities .entities-container .entitie .entitie_buttons_container .entitie_add {
   color: #ed1111;
