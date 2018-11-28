@@ -50,7 +50,7 @@ const footerData = [
             },
             {
                 img: 'mail',
-            text: 'Customer support: support@example.com Press: pressroom@example.com',
+                text: 'Customer support: support@example.com',
                 text_2: 'Press: pressroom@example.com'
             },
             {
@@ -74,7 +74,12 @@ const Footer =() => {
                     {block.points.map(( point, ind ) => (
                         <div key={ind} className="footer-block_point">
                             <div className={`footer-block_point__text ${point.img ? point.img : 'dot'}`}>
-                                <p>{point.text}</p>
+                                <div>
+                                    <p>{point.text}</p>
+                                    {point.text_2 ?
+                                    <p>{point.text_2}</p> :
+                                    null}
+                                </div>
                             </div>
                         </div>
                     ))}

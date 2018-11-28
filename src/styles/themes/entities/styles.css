@@ -2,14 +2,18 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  max-width: 1200px;
   min-height: 554px;
   margin: 0 auto;
 }
 #entities .entities-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
+}
+@media (max-width: 620px) {
+  #entities .entities-container {
+    justify-content: center;
+  }
 }
 #entities .entities-container .entitie {
   height: 405px;
